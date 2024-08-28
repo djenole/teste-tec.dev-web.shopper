@@ -1,0 +1,32 @@
+{
+  "name": "teste-tec.dev-web.shopper",
+  "version": "1.0.0",
+  "description": "Teste técnico para verificar algumas habilidades técnicas essenciais para a vaga. Processo de contratação Desenvolvedor Web Full-Stack Júnior. O prazo de entrega vai até 30/08 às 23h59.",
+  "main": "index.js",
+  "scripts": {
+  "dev": "ts-node-dev --respawn --transpile-only src/index.ts",
+  "build": "tsc",
+  "start": "node dist/index.js"
+}
+,
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/djenole/teste-tec.dev-web.shopper.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/djenole/teste-tec.dev-web.shopper/issues"
+  },
+  "homepage": "https://github.com/djenole/teste-tec.dev-web.shopper#readme",
+  "dependencies": {
+    "express": "^4.19.2"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.21",
+    "@types/node": "^22.5.1",
+    "ts-node-dev": "^2.0.0",
+    "typescript": "^5.5.4"
+  }
+}
